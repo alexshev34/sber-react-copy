@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  @font-face {
+    font-family: 'Myriad Bold';
+    src: url("../fonts/MyriadPro-Bold.woff") format("woff"), url("../fonts/MyriadPro-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Myriad Regular';
+    src: url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+  }
+  
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: #000;
+  }
+
+  .container {
+    max-width: 1325px;
+    margin: 0 auto;
+  }
+  
+  .container-3 {
+    max-width: 1465px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .container__header {
+    max-width: 1435px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .container__footer {
+    padding: 0 15px;
+  }
+
+  .slick-dots {
+    border: none;
+    display: flex;
+    margin-top: 30px;
+  }
+  .slick-dots button {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+    padding: 0;
+    font-size: 0;
+    outline: none;
+  }
+  .slick-dots li:not(:last-child) {
+    margin-right: 9px;
+  }
+  
+  .slick-list {
+    overflow: hidden;
+  }
+  
+  .slick-active button {
+    background-color: #6abf5e;
+    opacity: 1;
+  }
+  
+  .slick-track {
+    display: flex;
+  }

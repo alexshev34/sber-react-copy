@@ -1,0 +1,119 @@
+.orders__container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  .orders__title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 125px;
+  }
+  .orders__flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .orders__input {
+    width: 100%;
+    max-width: 655px;
+    border-radius: 31px;
+    border: 1px solid #999;
+    outline: none;
+    padding: 21px 0 21px 22px;
+  }
+  .orders__button {
+    font-weight: bold;
+    width: 100%;
+    max-width: 457px;
+    border-radius: 31px;
+    background: linear-gradient(0deg, #61ba6d 0%, #88cf2d 100%);
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid #999;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    padding: 23px 0 25px;
+  }
+  .orders__menu {
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    height: 53px;
+  }
+  .orders__link {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .orders__link:hover {
+    border-bottom: 3px solid #fff;
+    transition: all .3s;
+  }
+  
+  .execution__container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  .execution__box {
+    display: flex;
+    margin-top: 80px;
+    border-bottom: 5px solid #eee;
+  }
+  .execution__info:nth-child(1) {
+    margin-right: 128px;
+  }
+  .execution__list {
+    display: flex;
+  }
+  .execution__services {
+    color: green;
+  }
+  .execution__services:not(:last-child) {
+    margin-right: 48px;
+  }
+  .execution__name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .execution__name span {
+    font-weight: 500;
+  }
+  .execution__img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 40px;
+  }
+  .execution__description {
+    margin-top: 53px;
+    margin-bottom: 40px;
+    max-width: 765px;
+  }
+  .execution__user {
+    margin-bottom: 62px;
+  }
+  .execution__link {
+    color: green;
+  }
+  .execution__button {
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid #999;
+    padding: 20px 11px;
+    color: green;
+    width: 100%;
+    max-width: 262px;
+    outline: none;
+    cursor: pointer;
+  }
+  .execution__button-1 {
+    margin-bottom: 40px;
+  }

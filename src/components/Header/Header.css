@@ -1,0 +1,94 @@
+.header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 920px -11px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.15);
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/fefb275537637149e9f61f8c9228b2eb.png");
+  }
+  .header__burger {
+    display: none;
+  }
+  .header__wrapper {
+    padding-top: 20px;
+    padding-bottom: 11px;
+    display: flex;
+    align-items: center;
+  }
+  .header-logo {
+    font-family: 'Myriad Bold';
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 36px;
+  }
+  .header-logo span {
+    font-family: 'Myriad Regular';
+    font-weight: 400;
+    font-size: 48px;
+    color: #6dc05a;
+  }
+  .header-navigation {
+    margin-left: 100px;
+  }
+  .header-navigation__list {
+    display: flex;
+  }
+  .header-navigation__item:not(:last-child) {
+    padding-right: 48px;
+  }
+  .header-navigation__link {
+    font-family: 'Myriad Bold';
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #62ba6c;
+  }
+  .header-navigation__link:not(:last-child) {
+    padding-right: 48px;
+  }
+  .header-navigation__link:hover {
+    background: linear-gradient(0deg, #61ba6d 0%, #88cf2d 100%);
+    border: 1px solid;
+    border-radius: 31px;
+    color: #fff;
+    padding: 25px 30px;
+    z-index: -1;
+    transition: all .5s;
+  }
+  .header-authorization {
+    margin-left: 233px;
+  }
+  .header .sign-in {
+    font-family: 'Myriad Bold';
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    margin-right: 80px;
+    cursor: pointer;
+  }
+  .header .sign-in:hover {
+    background-color: #000;
+    border-radius: 31px;
+    padding: 25px 35px;
+    transition: all .5s;
+  }
+  .header .sign-up {
+    font-family: 'Myriad Bold';
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+  }
+  .header .sign-up:hover {
+    background-color: #000;
+    border-radius: 31px;
+    padding: 25px 35px;
+    transition: all .5s;
+  }

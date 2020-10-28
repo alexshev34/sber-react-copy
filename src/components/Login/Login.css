@@ -1,0 +1,142 @@
+.authorization__container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .authorization__title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 140px;
+    margin-bottom: 94px;
+  }
+  .authorization__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .authorization__item {
+    border-radius: 31px;
+    width: 100%;
+    max-width: 263px;
+  }
+  .authorization__item:nth-child(1) {
+    background-color: #2f76a6;
+    position: relative;
+  }
+  .authorization__item:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/b2ab436ccde2251e9adb07d359fa960c.png");
+    width: 45px;
+    height: 38px;
+    top: 18px;
+    left: 28px;
+  }
+  .authorization__item:nth-child(2) {
+    background-color: #3d67ba;
+    position: relative;
+  }
+  .authorization__item:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/0930374b1d474ae36d185560d76e7250.png");
+    width: 39px;
+    height: 38px;
+    top: 18px;
+    left: 28px;
+  }
+  .authorization__item:nth-child(3) {
+    background-color: #ff7b00;
+    position: relative;
+  }
+  .authorization__item:nth-child(3)::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/36d8e862f7a851f53ce9d2042fbdb0a5.png");
+    width: 19px;
+    height: 40px;
+    top: 14px;
+    left: 32px;
+  }
+  .authorization__item:nth-child(4) {
+    background-color: #ff4934;
+    position: relative;
+  }
+  .authorization__item:nth-child(4)::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/3458fa2e9b566763172cc49f00e651dd.png");
+    width: 31px;
+    height: 37px;
+    top: 18px;
+    left: 28px;
+  }
+  .authorization__link {
+    color: #fff;
+    font-size: 28px;
+    padding: 20px 80px;
+  }
+  .authorization__od {
+    font-size: 18px;
+    padding: 25px 68px;
+  }
+  
+  .login__container {
+    max-width: 585px;
+    margin: 0 auto;
+  }
+  .login__title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 60px;
+  }
+  .login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login__input {
+    font-size: 18px;
+    width: 100%;
+    max-width: 585px;
+    border-radius: 31px;
+    padding: 25px 0 25px 45px;
+    outline: none;
+    border: 1px solid #999;
+    margin-bottom: 40px;
+  }
+  .login__label {
+    font-size: 18px;
+  }
+  .login__button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    max-width: 585px;
+    border-radius: 31px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 22px 0 22px;
+    margin-top: 40px;
+  }
+  .login__btn-1 {
+    background: linear-gradient(0deg, #61ba6d 0%, #88cf2d 100%);
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.15);
+  }
+  .login__btn-2 {
+    background: linear-gradient(0deg, #666666 0%, black 100%);
+  }
+  .login__list {
+    margin-top: 55px;
+  }
+  .login__item:nth-child(1) {
+    margin-bottom: 23px;
+  }
+  .login__link {
+    font-size: 18px;
+    color: #336699;
+  }

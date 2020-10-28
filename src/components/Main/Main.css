@@ -1,0 +1,384 @@
+.preview__column {
+    padding-left: 15px;
+  }
+  .preview__column:nth-child(1) {
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/3a18e7b3e68359b9f5c58fce4a0a88ab.png");
+    background-size: 955px 760px;
+    background-position: 477px -67px;
+    background-repeat: no-repeat;
+  }
+  .preview__column:nth-child(2) {
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/fa4669cfebcd83fc127239aad2d65d81.png");
+    background-size: 955px 760px;
+    background-position: 477px -67px;
+    background-repeat: no-repeat;
+  }
+  .preview__column:nth-child(3) {
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/f65648e9da924b4dcf1d15aa3b40f5fd.png");
+    background-size: 955px 760px;
+    background-position: 477px -67px;
+    background-repeat: no-repeat;
+  }
+  .preview__title {
+    font-weight: bold;
+    line-height: 76px;
+    max-width: 635px;
+    padding-top: 220px;
+    font-size: 52px;
+  }
+  .preview__title span {
+    color: #52bb6b;
+  }
+  .preview__text {
+    font-size: 24px;
+    max-width: 670px;
+    line-height: 36px;
+    margin-bottom: 140px;
+  }
+  .preview__inner {
+    display: flex;
+  }
+  .preview__button:nth-child(1) {
+    margin-right: 84px;
+  }
+  .preview__link1 {
+    font-family: 'Myriad Bold';
+    text-transform: uppercase;
+    border-radius: 31px;
+    background: linear-gradient(0deg, #61ba6d 0%, #88cf2d 100%);
+    padding: 24px 72px 20px 56px;
+    color: #fff;
+  }
+  .preview__link2 {
+    font-family: 'Myriad Bold';
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    padding: 24px 47px 23px 64px;
+  }
+
+  .popular {
+    margin-top: 236px;
+  }
+  .popular__title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 118px;
+  }
+  .popular__title span {
+    color: #61ba6d;
+    font-weight: bold;
+  }
+  .popular__list {
+    display: flex;
+    justify-content: center;
+  }
+  .popular__item:not(:last-child) {
+    margin-right: 28px;
+  }
+  .popular__info {
+    margin: 0 auto;
+    max-width: 323px;
+    position: relative;
+    z-index: 2;
+    margin-top: -81px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.15);
+  }
+  .popular__text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 22px;
+    padding-left: 30px;
+  }
+  .popular__price {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 30px;
+    color: #61ba6d;
+    padding-bottom: 24px;
+  }
+  .popular-individual {
+    margin-top: -18px;
+  }
+  .popular__button {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+  }
+  .popular__link {
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    padding: 23px 108px;
+    text-transform: uppercase;
+  }
+  
+  .work {
+    margin-top: 123px;
+    background: url("https://s8.hostingkartinok.com/uploads/images/2020/10/da284f6c35d66c09bca994ce95ce1720.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 195px;
+    position: relative;
+  }
+  .work__title {
+    max-width: 368px;
+    margin-top: 65px;
+  }
+  .work__title span {
+    color: #61ba6d;
+  }
+  .work-aside {
+    position: absolute;
+    top: 76px;
+    margin-left: 725px;
+    background-color: #fff;
+    border-radius: 50px 0 0 50px;
+    padding-bottom: 92px;
+    max-width: 790px;
+  }
+  .work-aside__wrapper {
+    margin-left: 83px;
+  }
+  .work-list {
+    margin-left: 116px;
+  }
+  .work-list__item:nth-child(1) {
+    padding-top: 0;
+  }
+  .work-list__number {
+    font-weight: bold;
+    font-size: 72px;
+    max-width: 195px;
+    color: #fff;
+    letter-spacing: 14.5px;
+    line-height: 0;
+    margin-bottom: 52px;
+  }
+  .work-list .block-1 {
+    padding-top: 190px;
+    margin-left: 41px;
+  }
+  .work-list .block-2 {
+    margin-left: -5px;
+  }
+  .work-list__text {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 230px;
+    text-align: center;
+  }
+  .work-info__title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .work-info__text {
+    max-width: 615px;
+  }
+  
+  .advantage {
+    margin-top: 200px;
+  }
+  .advantage__wrapper {
+    display: flex;
+  }
+  .advantage__column:nth-child(1) {
+    margin-right: 13px;
+  }
+  .advantage__title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    width: 633px;
+  }
+  .advantage__title span {
+    color: #61ba6d;
+  }
+  .advantage-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .advantage-list__item:nth-child(odd) {
+    margin-right: 127px;
+  }
+  .advantage-list__img {
+    margin-left: 95px;
+  }
+  .advantage__text {
+    font-size: 18px;
+    text-align: center;
+    max-width: 265px;
+    text-transform: uppercase;
+  }
+  
+  .job {
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/1562d94f89d83366ed2155125ae9dedf.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 180px;
+    margin-top: 268px;
+  }
+  .job__title {
+    font-family: 'Myriad Bold';
+    font-size: 48px;
+    line-height: 72px;
+    max-width: 1186px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 189px;
+    color: #fff;
+  }
+  .job__link {
+    font-family: 'Myriad Bold';
+    font-size: 18px;
+    padding: 23px 86px 24px 90px;
+    background: linear-gradient(0deg, #61ba6d 0%, #88cf2d 100%);
+    border-radius: 40px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .job__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  
+  .tasks {
+    margin-top: 200px;
+    position: relative;
+  }
+  .tasks__wrapper {
+    display: flex;
+  }
+  .tasks__aside {
+    position: absolute;
+    top: 96px;
+    left: 154px;
+  }
+  .tasks__title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    max-width: 619px;
+  }
+  .tasks__title span {
+    color: #69b873;
+  }
+  .tasks__column {
+    margin-left: 205px;
+  }
+  .tasks__block {
+    border-bottom: 3px solid #000;
+    margin-top: 70px;
+  }
+  .tasks__text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .tasks__list {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .tasks__item span {
+    color: #72bc7c;
+  }
+  .tasks__item:nth-child(1) {
+    margin-right: 70px;
+  }
+  .tasks__link {
+    color: #6d9fe1;
+    padding-bottom: 50px;
+  }
+  .tasks-button {
+    margin-top: 91px;
+  }
+  .tasks-button__link {
+    font-family: 'Myriad Bold';
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 22px 35px 21px 39px;
+    border-radius: 40px;
+    background: linear-gradient(0deg, #61ba6d 0%, #88cf2d 100%);
+    color: #fff;
+  }
+  
+  .form {
+    margin-top: 222px;
+  }
+  .form__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form__block:nth-child(1) {
+    background: linear-gradient(0deg, #666666 0%, black 100%);
+    border-radius: 0 50px 50px 0;
+    max-width: 944px;
+    margin-right: 36px;
+    width: 100%;
+  }
+  .form__block:nth-child(2) {
+    max-width: 944px;
+    background: linear-gradient(0deg, #61ba6d 0%, #88cf2d 100%);
+    border-radius: 50px 0 0 50px;
+    width: 100%;
+  }
+  .form__title {
+    padding-top: 88px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    color: #fff;
+  }
+  .form__text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 38px;
+    color: #fff;
+  }
+  .form__center-1 {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  .form__center-2 {
+    margin-left: 85px;
+    margin-right: 90px;
+  }
+  .form__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    padding-bottom: 91px;
+  }
+  .form__link-1 {
+    font-family: 'Myriad Bold';
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 23px 82px 22px 81px;
+    background: linear-gradient(0deg, #61ba6d 0%, #88cf2d 100%);
+    border-radius: 41px;
+  }
+  .form__link-2 {
+    font-family: 'Myriad Bold';
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 12px 60px 15px 57px;
+    background-color: #000;
+    border-radius: 40px;
+  }

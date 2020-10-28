@@ -1,0 +1,134 @@
+.header {
+    background: linear-gradient(0deg, #61ba6d 0%, #88cf2d 100%);
+  }
+  .header__wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 11px;
+    padding-bottom: 13px;
+  }
+  .header-authorization {
+    display: flex;
+  }
+  .header__container {
+    max-width: 1860px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-family: 'Myriad Bold';
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 35px;
+    margin-left: 67px;
+  }
+  .logo span {
+    font-family: 'Myriad Regular';
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+  }
+  
+  .site-navigation {
+    margin-right: 350px;
+  }
+  .site-navigation__list {
+    display: flex;
+    list-style: none;
+    margin-left: 140px;
+  }
+  .site-navigation__item:nth-child(1) {
+    margin-right: 68px;
+    position: relative;
+  }
+  .site-navigation__item:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/aa8465921952feaf07bf9c856e6dd527.png");
+    height: 31px;
+    width: 35px;
+    left: -44px;
+    top: -6px;
+  }
+  .site-navigation__item:nth-child(2) {
+    margin-right: 85px;
+    position: relative;
+  }
+  .site-navigation__item:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/5a8419b38c5ebf9c33ed00d5f6366a16.png");
+    width: 36px;
+    height: 36px;
+    left: -44px;
+    top: -6px;
+  }
+  .site-navigation__item:nth-child(3) {
+    position: relative;
+  }
+  .site-navigation__item:nth-child(3)::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/5b514cb7841cf6e0c473c26e14c31d14.png");
+    width: 35px;
+    height: 31px;
+    left: -44px;
+    top: -6px;
+  }
+  .site-navigation__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .logout {
+    border: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Myriad Bold';
+    font-weight: bold;
+    margin-right: 50px;
+    margin-top: 23px;
+    display: block;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+  }
+  .logout::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/e985b9b662b5520cf6eddaa86cd38dc5.png");
+    width: 35px;
+    height: 35px;
+    left: -46px;
+    top: -6px;
+  }
+  
+  .specialist-info {
+    position: relative;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Myriad Bold';
+    font-weight: bold;
+    background-color: #000;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 31px;
+    padding: 14px 62px 11px 91px;
+    max-width: 321px;
+    outline: none;
+    cursor: pointer;
+  }
+  .specialist-info::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://s8.hostingkartinok.com/uploads/images/2020/10/a485a37acc84fb2c59fc0323d4013d24.png");
+    width: 35px;
+    height: 35px;
+    left: 35px;
+  }
